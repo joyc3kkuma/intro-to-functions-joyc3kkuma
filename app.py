@@ -4,11 +4,19 @@ t = Turtle()
 
 t.shape('turtle')
 
-t.forward(200)
+""" t.forward(200)
+ """
 
-def message(input):
-    print(input)
-message("Hello Class")
+def rectangle(x): 
+    t.forward(x)
+    t.left(125)
+    t.forward(x)
+    t.left(100)
+    t.forward(x)
+    t.left(125)
+    t.forward(x)
+    t.left(100)
+rectangle(200)
 
 
 
