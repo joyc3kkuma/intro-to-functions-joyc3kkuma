@@ -2,19 +2,13 @@ import turtle
 from turtle import *
 t = Turtle()
 
-t.shape('turtle')
+t.shape('turtle') 
 
-def square(x,y):
-    for i in range(4):
-
-
-def SixtySquares(iRange):
-    length = 5
+def doubleSquares(iRange):
+    length = 25
     for i in range(iRange):
-        square(length,90)
-        length = length * 5
-        t.left(*5)
-
+        square(length, 90)
+        length = length * 2
+doubleSquares(5)
 
 turtle.done()
-
